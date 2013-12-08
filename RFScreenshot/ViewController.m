@@ -23,6 +23,8 @@
 }
 
 -(IBAction)takeScreenshot:(id)sender {
+    
+    //We take a screenshot and we assign it to a image view
     self.screenshot.image = [RFScreenshot takeScreenshot:self.view];
 }
 

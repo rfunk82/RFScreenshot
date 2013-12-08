@@ -12,6 +12,7 @@
 
 +(UIImage *) takeScreenshot:(UIView *)view {
     
+    //Take screenshot
     UIGraphicsBeginImageContext(view.bounds.size);
     [view.layer renderInContext:UIGraphicsGetCurrentContext()];
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
