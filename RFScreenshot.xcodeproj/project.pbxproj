@@ -21,6 +21,7 @@
 		C75AE291185429F5006B955B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C75AE273185429F4006B955B /* UIKit.framework */; };
 		C75AE299185429F5006B955B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C75AE297185429F5006B955B /* InfoPlist.strings */; };
 		C75AE29B185429F5006B955B /* RFScreenshotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C75AE29A185429F5006B955B /* RFScreenshotTests.m */; };
+		C75AE2A6185437A8006B955B /* RFScreenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = C75AE2A5185437A8006B955B /* RFScreenshot.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C75AE296185429F5006B955B /* RFScreenshotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RFScreenshotTests-Info.plist"; sourceTree = "<group>"; };
 		C75AE298185429F5006B955B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C75AE29A185429F5006B955B /* RFScreenshotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFScreenshotTests.m; sourceTree = "<group>"; };
+		C75AE2A4185437A8006B955B /* RFScreenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFScreenshot.h; path = RFScreenshot/RFScreenshot.h; sourceTree = "<group>"; };
+		C75AE2A5185437A8006B955B /* RFScreenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RFScreenshot.m; path = RFScreenshot/RFScreenshot.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				C75AE281185429F4006B955B /* Main.storyboard */,
 				C75AE284185429F4006B955B /* ViewController.h */,
 				C75AE285185429F4006B955B /* ViewController.m */,
+				C75AE2A4185437A8006B955B /* RFScreenshot.h */,
+				C75AE2A5185437A8006B955B /* RFScreenshot.m */,
 				C75AE287185429F4006B955B /* Images.xcassets */,
 				C75AE276185429F4006B955B /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 				C75AE286185429F4006B955B /* ViewController.m in Sources */,
 				C75AE280185429F4006B955B /* AppDelegate.m in Sources */,
 				C75AE27C185429F4006B955B /* main.m in Sources */,
+				C75AE2A6185437A8006B955B /* RFScreenshot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +466,7 @@
 				C75AE2A0185429F5006B955B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C75AE2A1185429F5006B955B /* Build configuration list for PBXNativeTarget "RFScreenshotTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +475,7 @@
 				C75AE2A3185429F5006B955B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

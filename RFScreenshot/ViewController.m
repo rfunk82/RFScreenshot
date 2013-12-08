@@ -7,9 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "RFScreenshot.h"
 
 @interface ViewController ()
-
+-(IBAction)takeScreenshot:(id)sender;
+@property (nonatomic, weak) IBOutlet UIImageView *screenshot;
 @end
 
 @implementation ViewController
@@ -18,6 +20,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+-(IBAction)takeScreenshot:(id)sender {
+    self.screenshot.image = [RFScreenshot takeScreenshot:self.view];
 }
 
 - (void)didReceiveMemoryWarning
