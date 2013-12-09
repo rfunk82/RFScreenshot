@@ -1,7 +1,7 @@
 RFScreenshot
 ============
 
-RFLoader provides a UIImage of the current view (Takes a screenshot and gives you an UIImage containing that screenshot).
+RFLoader provides an UIImage of the current view (Takes a screenshot and gives you an UIImage containing that screenshot).
 
 ## How To Get Started
 
