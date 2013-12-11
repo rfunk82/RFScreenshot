@@ -12,6 +12,12 @@ RFLoader provides an UIImage of the current view (Takes a screenshot and gives y
     `[RFScreenshot takeScreenshot:self.view];`
 
 
+TODO
+============
+
+Ability to apply different filters to image
+
+
 Created By
 ==========
 
